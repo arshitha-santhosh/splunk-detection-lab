@@ -50,8 +50,4 @@ attacks, write SPL detections, and document triage.
 You should see your Windows VM's hostname with sourcetypes like WinEventLog:Security.
 <img width="864" height="404" alt="image" src="https://github.com/user-attachments/assets/785198ea-3735-4c85-a39e-bfb3e4000a27" />
 
-## 6. Build the brute force detection
-Step 1 — Generate the attack from Kali
-On Kali, run Hydra against the Windows VM's RDP or SMB:
--         -->hydra -l Ash -P /usr/share/wordlists/rockyou.txt -t 1 -W 3 rdp://192.168.17.105
 
